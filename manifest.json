@@ -1,0 +1,17 @@
+
+{
+    "name": "Disco Jungle",
+    "description": "A cute game to replace the dinosaur game. Note that removing this will remove all unlocks. ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "tabs"],
+    "icons": {
+        "16": "/imgs/catIdle.png",
+        "32": "/imgs/catIdle.png",
+        "48": "/imgs/catIdle.png",
+        "128": "/imgs/catIdle.png"
+    }
+  }
